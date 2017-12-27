@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/EMM_for_stock_prediction/sentiment_analysis/gen_word/1.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EMM_for_stock_prediction/sentiment_analysis/gen_word/F1/test/test_pos.txt" charset="x-MacRoman" />
+    <file url="file://$PROJECT_DIR$/EMM_for_stock_prediction/sentiment_analysis/gen_word/F1/train/train_pos.txt" charset="x-MacRoman" />
+    <file url="file://$PROJECT_DIR$/EMM_for_stock_prediction/sentiment_analysis/gen_word/stopwords.txt" charset="UTF-8" />
+  </component>
+</project>

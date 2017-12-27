@@ -109,11 +109,11 @@ if __name__ == '__main__':
     df = gtStock.getSZ50_Composite()
     df[1].values.tolist()
     # lstStocks = ['600001','600002']
-    # df = getDetailInforForSelectedStocks(df[1].values.tolist())
+    df_Features = getDetailInforForSelectedStocks(df[1].values.tolist())
     # yconnect = create_engine('mysql+mysqldb://root:root@localhost/stocks?charset=utf8')
-    pd.io.sql.to_sql(df,'stocks_features', yconnect, schema='stocks', if_exists='append')# df.to_csv( 'sz50features.csv', encoding='UTF-8' )
-    print( df.head( 10 ) )
-    print( df.shape)
+    # pd.io.sql.to_sql(df,'stocks_features', yconnect, schema='stocks', if_exists='append')# df.to_csv( 'sz50features.csv', encoding='UTF-8' )
+    print( df_Features.head( 10 ) )
+    print( df_Features.shape)
 
 
 

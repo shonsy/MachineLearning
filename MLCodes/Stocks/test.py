@@ -6,9 +6,9 @@ r= requests.get(url)
 s= etree.HTML(r.text)
 print(s.xpath('//*[@id="BalanceSheetNewTable0"]/tbody/tr[1]//td/text()'))
 # print(s.xpath('//*[@id="BalanceSheetNewTable0"]/tbody/tr[1]/td[3]/text()'))
+print
 
-
-
+test
 
 
 
